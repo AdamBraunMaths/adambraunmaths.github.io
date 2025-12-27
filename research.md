@@ -13,7 +13,7 @@ permalink: /research/
 - Observer design for nonlinear or infinite dimensional dynamical systems
 
 **Keywords:** PDE, control theory, backstepping, IDE, delay, KKL, Backstepping-KKL, interconnected systems
-
+---
 ## Preprints
 
 {% assign pubs = site.data.preprints | sort: "Year" | reverse %}
@@ -27,7 +27,7 @@ permalink: /research/
 {% endfor %}
 
 
-
+---
 ## Articles published in a peer-reviewed journal
 
 {% assign pubs = site.data.citations | sort: "Year" | reverse %}
