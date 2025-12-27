@@ -54,7 +54,7 @@ Collège Marie Curie, Paris
 
 ## Awards
 
--**Best student conference paper at IFAC TDS 2025 (Paris)
+-**Best student conference paper at IFAC TDS 2025 (Paris)**
 
 ---
 
