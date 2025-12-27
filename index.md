@@ -4,6 +4,7 @@ title: Home
 permalink: /
 ---
 
+![My photo](/assets/images/182277.jpg)
 
 ## Research interests
 - Partial Differential Equations
