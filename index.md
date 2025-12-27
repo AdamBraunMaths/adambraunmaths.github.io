@@ -1,7 +1,9 @@
 ---
-layout: default
+layout: home
 title: Home
+permalink: /
 ---
+
 
 # Adam Braun
 
