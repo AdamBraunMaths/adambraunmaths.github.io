@@ -5,9 +5,7 @@ permalink: /cv/
 
 **PhD Student in Mathematics**
 
-📞 +33 6 50 66 18 82  
 ✉️ adam.braun@centralesupelec.fr  
-📍 33 rue Marx Dormoy, 75018 Paris  
 🎂 Born on January 8, 2002
 
 ---
