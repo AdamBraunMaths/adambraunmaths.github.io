@@ -3,9 +3,6 @@ title: CV
 permalink: /cv/
 ---
 
-
-# Adam Braun
-
 **PhD Student in Mathematics**
 
 📞 +33 6 50 66 18 82  
