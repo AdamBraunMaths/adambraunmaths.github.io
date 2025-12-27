@@ -15,7 +15,7 @@ permalink: /cv/
 **PhD in Mathematics — Practical Control of Networks of Hyperbolic Systems**  
 *2024 – Present*  
 Laboratoire des Signaux et Systèmes (L2S), CentraleSupélec, Gif-sur-Yvette  
-Supervisors: Jean Auriol, Lucas Brivadis
+Supervisors: [Jean Auriol](https://l2s.centralesupelec.fr/u/auriol-jean/), [Lucas Brivadis](https://sites.google.com/view/lucas-brivadis/homepage?authuser=0)
 
 **Master's Degree (M2) in Mathematical Modelling — Honors: Good**  
 *2023 – 2024*  
