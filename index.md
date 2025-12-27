@@ -1,7 +1,7 @@
 ---
 layout: home
 title: Home
-permalink: /
+permalink: /home/
 ---
 
 I am a maths PhD student at L2s laboratory in Paris-Saclay, France.
