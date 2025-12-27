@@ -1,10 +1,9 @@
 ---
 layout: home
 title: Home
-permalink: /home/
+permalink: /
 ---
 
-I am a maths PhD student at L2s laboratory in Paris-Saclay, France.
 
 ## Research interests
 - Partial Differential Equations
