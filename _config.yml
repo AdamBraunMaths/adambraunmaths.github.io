@@ -1,5 +1,10 @@
 theme: minima
 markdown: kramdown
 
+header_pages:
+  - index.md
+  - research.md
+
 kramdown:
   math_engine: mathjax
+
