@@ -4,9 +4,6 @@ title: Home
 permalink: /
 ---
 
-
-# Adam Braun
-
 I am a maths PhD student at L2s laboratory in Paris-Saclay, France.
 
 ## Research interests
