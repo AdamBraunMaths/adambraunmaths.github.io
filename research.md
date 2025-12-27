@@ -7,8 +7,17 @@ permalink: /research/
 
 # Research
 
+## Preprints 
+
+{% assign pubs = site.data.preprints | sort: "year" | reverse %}
+{% for p in pubs %}
+- **{{ p.title }}** ({{ p.year }})  
+  {{ p.authors | replace: ";", ", " }}  
+  *{{ p.venue }}*  
+  {% if p.link and p.link != "" %}[link]({{ p.link }}){% endif %}
+{% endfor %}
+
 ## Articles published in a peer-reviewed journal
-## Publications
 
 {% assign pubs = site.data.citations | sort: "year" | reverse %}
 {% for p in pubs %}
