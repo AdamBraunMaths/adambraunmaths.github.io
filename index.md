@@ -5,10 +5,7 @@ title: Home
 
 # Adam Braun
 
-I am a maths PhD student at L2s laboratory in Paris-Saclay, France. My research interests include Partial Differential Equations, 
-infinite-dimensional systems robust control of hyperbolic systems, 
-delay systems, networks, and interconnected systems, 
-observer design for nonlinear or infinite dimensional dynamical systems.
+I am a maths PhD student at L2s laboratory in Paris-Saclay, France.
 
 ## Research interests
 - Partial Differential Equations
