@@ -22,7 +22,11 @@ permalink: /research/
 {% for p in pubs %}
 - **{{ p.Title }}** ({{ p.Year }})  
   {{ p.Authors | replace: "Braun, Adam", "**Braun, Adam**" | replace: "; ", ", " | replace: ";", "" }}  
-  *{{ p.Publication }}*{% if p.Volume and p.Volume != "" %}, {{ p.Volume }}{% endif %}{% if p.Number and p.Number != "" %}({{ p.Number }}){% endif %}{% if p.Pages and p.Pages != "" %}, {{ p.Pages }}{% endif %}{% if p.Publisher and p.Publisher != "" %} — {{ p.Publisher }}{% endif %}
+  *{{ p.Publication }}*{% if p.Publisher and p.Publisher != "" %} — {{ p.Publisher }}{% endif %}
+  {% if p.HAL or p.Article %}
+  <br>
+  {% if p.HAL %}[HAL]({{ p.HAL }}){% endif %}{% if p.HAL and p.Article %} · {% endif %}{% if p.Article %}[Article]({{ p.Article }}){% endif %}
+  {% endif %}
 {% endfor %}
 
 
