@@ -11,10 +11,15 @@ permalink: /research/
 
 {% assign pubs = site.data.preprints | sort: "Year" | reverse %}
 {% for p in pubs %}
-- **{{ p.Title }}** ({{ p.Year }})  
-  {{ p.Authors | replace: "Braun, Adam", "**Braun, Adam**" | replace: "; ", ", " | replace: ";", "" }}  
+- {% if p.Title and p.Title != "" %}**{{ p.Title }}**{% endif %}{% if p.Year and p.Year != "" %} ({{ p.Year }}){% endif %}  
+  {% if p.Authors and p.Authors != "" %}
+  {{ p.Authors | replace: "Braun, Adam", "**Braun, Adam**" | replace: "; ", ", " | replace: ";", "" }}
+  {% endif %}
+  {% if p.Status and p.Status != "" %}
   {{ p.Status }}{% if p.Link and p.Link != "" %} — [HAL]({{ p.Link }}){% endif %}
+  {% endif %}
 {% endfor %}
+
 
 ## Articles published in a peer-reviewed journal
 
