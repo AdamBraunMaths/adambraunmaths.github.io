@@ -68,4 +68,4 @@ Collège Marie Curie, Paris
 ## Other Interests
 
 - Argentine Tango  
-- Historic novels especially crime 
+- Historical novels especially crime 
