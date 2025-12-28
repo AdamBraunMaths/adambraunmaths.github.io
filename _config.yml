@@ -1,6 +1,6 @@
 theme: minima
 minima:
-  skin: solarized
+  skin: dark
 markdown: kramdown
 
 header_pages:
