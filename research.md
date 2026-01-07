@@ -23,7 +23,7 @@ permalink: /research/
 - **{{ p.Title }}**{% if p.Year and p.Year != "" %} ({{ p.Year }}){% endif %}  
   {{ p.Authors | replace: "Braun, Adam", "**Braun, Adam**" | replace: "; ", ", " | replace: ";", "" }}  
   {{ p.Status }}<br>
-  {% if p.Link and p.Link != "" %}[HAL]({{ p.Link }}){% endif %}
+  {% if p.Link and p.Link != "" %}[HAL/arXiv]({{ p.Link }}){% endif %}
 {% endif %}
 {% endfor %}
 
@@ -36,7 +36,7 @@ permalink: /research/
 - **{{ p.Title }}** ({{ p.Year }})  
   {{ p.Authors | replace: "Braun, Adam", "**Braun, Adam**" | replace: "; ", ", " | replace: ";", "" }}  
   *{{ p.Publication }}*{% if p.Publisher and p.Publisher != "" %} — {{ p.Publisher }}{% endif %}<br>
-  {% if p.HAL %}[HAL]({{ p.HAL }}){% endif %}{% if p.HAL and p.Article %} · {% endif %}{% if p.Article %}[Article]({{ p.Article }}){% endif %}
+  {% if p.HAL %}[HAL/arXiv]({{ p.HAL }}){% endif %}{% if p.HAL and p.Article %} · {% endif %}{% if p.Article %}[Article]({{ p.Article }}){% endif %}
 {% endfor %}
 
 
