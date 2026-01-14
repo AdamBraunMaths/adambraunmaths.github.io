@@ -18,7 +18,7 @@ permalink: /cv/
 Laboratoire des Signaux et Systèmes (L2S), CentraleSupélec, Gif-sur-Yvette  
 Supervisors: [Jean Auriol](https://l2s.centralesupelec.fr/u/auriol-jean/), [Lucas Brivadis](https://sites.google.com/view/lucas-brivadis/homepage?authuser=0)
 
-**Master's Degree (M2) in Mathematical Modelling — Honors: Good**  
+**Second-year Master's Degree (M2) in Mathematical Modelling — with High honors**  
 *2023 – 2024*  
 Sorbonne University, Paris
 
@@ -29,10 +29,11 @@ Sorbonne University, Paris
 
 **Intensive Bachelor's Degree in Mathematics**  
 *2019 – 2022*  
+Special program with added coursestm
 Grade: 15.561 / 20, Rank: 10 / 191  
 Sorbonne University, Paris
 
-**French Scientific Baccalaureate — Highest Honors**  
+**French Scientific Baccalaureate — with Highest Honors**  
 *2019*  
 Lycée Condorcet, Paris
 
@@ -42,7 +43,7 @@ Collège Marie Curie, Paris
 
 ---
 
-## Professional Experience
+## Professional experience
 
 - **Teaching Assistant — Mathematical Modelling**, CentraleSupélec — *2025*
 - **Teaching Assistant — Optimization**, CentraleSupélec — *2025*
