@@ -1,13 +1,26 @@
+# Site settings (SEO-important)
+title: Adam Braun
+description: PhD student in mathematics working on control theory, PDEs, and time-delay systems.
+url: "https://adambraunmaths.github.io"
+
+author:
+  name: Adam Braun
+  email: adam.braun@centralesupelec.fr
+
+# Theme
 theme: minima
 minima:
   skin: dark
-markdown: kramdown
 
+# Markdown
+markdown: kramdown
+kramdown:
+  math_engine: mathjax
+
+# Navigation
 header_pages:
   - research.md
   - cv.md
 
-kramdown:
-  math_engine: mathjax
 
 
