@@ -29,7 +29,7 @@ permalink: /research/
 
 
 ---
-## Articles published in a peer-reviewed journal
+## Publications
 
 {% assign pubs = site.data.citations | sort: "Year" | reverse %}
 {% for p in pubs %}
