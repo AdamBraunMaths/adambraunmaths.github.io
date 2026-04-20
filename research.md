@@ -15,9 +15,9 @@ permalink: /research/
 **Keywords:** PDE, control theory, backstepping, IDE, delay, KKL, Backstepping-KKL, interconnected systems
 
 ---
-## Preprints
+## Journal articles
 
-{% assign pubs = site.data.preprints | sort: "Year" | reverse %}
+{% assign pubs = site.data.journal_papers | sort: "Year" | reverse %}
 {% for p in pubs %}
 {% if p.Title and p.Title != "" %}
 - **{{ p.Title }}**{% if p.Year and p.Year != "" %} ({{ p.Year }}){% endif %}  
@@ -29,9 +29,9 @@ permalink: /research/
 
 
 ---
-## Publications
+## Conference papers
 
-{% assign pubs = site.data.citations | sort: "Year" | reverse %}
+{% assign pubs = site.data.conf_papers | sort: "Year" | reverse %}
 {% for p in pubs %}
 - **{{ p.Title }}** ({{ p.Year }})  
   {{ p.Authors | replace: "Braun, Adam", "**Braun, Adam**" | replace: "; ", ", " | replace: ";", "" }}  
